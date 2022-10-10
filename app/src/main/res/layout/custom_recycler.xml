@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:minWidth="1000dp"
+    android:minHeight="100dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/recycler_location"
+            style="@style/recycler_1"
+            android:text="@string/funtional"
+            />
+
+        <TextView
+            android:id="@+id/recycler_equipement"
+            style="@style/recycler_1"
+            android:text="@string/equpiment"
+            />
+        <TextView
+            android:id="@+id/recycler_work"
+            style="@style/recycler_1"
+            android:text="@string/center"
+            />
+
+        <TextView
+            android:id="@+id/recycler_description"
+            style="@style/recycler_1"
+            android:text="@string/description"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

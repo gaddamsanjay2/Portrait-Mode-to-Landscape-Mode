@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="800dp"
+        android:minWidth="490dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/Titel_1"
+            android:text="@string/create"/>
+
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/funtional" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/finctionality"
+                style="@style/editText_2"
+                android:layout_weight="0.2"
+                android:background="@drawable/border" />
+
+            <ImageView
+                android:id="@+id/barcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:src="@drawable/img"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            style="@style/textview_1"
+            android:text= "@string/equpiment"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/equipment"
+                style="@style/editText_2"
+                android:layout_weight="0.2"
+                android:background="@drawable/border" />
+            <ImageView
+                android:id="@+id/barcode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:src="@drawable/img"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            style="@style/textview_1"
+            android:text= "@string/center"/>
+
+        <EditText
+            android:id="@+id/workcenter"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/task" />
+
+        <EditText
+            android:id="@+id/task"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/description" />
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/break_down" />
+
+        <EditText
+            android:id="@+id/break_down"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/sympton" />
+
+        <EditText
+            android:id="@+id/sympton"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/code" />
+
+        <EditText
+            android:id="@+id/sympton_code"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/plant" />
+
+        <EditText
+            android:id="@+id/plant"
+
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/reported" />
+
+        <EditText
+            android:id="@+id/reported"
+
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/RAm" />
+
+        <EditText
+            android:id="@+id/category"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            style="@style/textview_1"
+            android:text="@string/ram_class" />
+
+        <EditText
+            android:id="@+id/consequence_class"
+            style="@style/editText_1"
+            android:background="@drawable/border"
+            />
+
+        <Button
+            android:id="@+id/save_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

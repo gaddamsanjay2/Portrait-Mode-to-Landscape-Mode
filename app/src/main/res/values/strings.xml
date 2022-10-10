@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Portrait_Mode_To_Landscape_mode</string>
+
+
+    <string name="create">Create Notification</string>
+    <string name="funtional">funcation loaction</string>
+
+    <string name="equpiment">Equipment</string>
+
+    <string name="center">Work Center</string>
+    <string name="task">Task Type</string>
+    <string name="description">Description</string>
+    <string name="break_down">Breakdown/HighRisk</string>
+    <string name="sympton">Sympton code Group</string>
+    <string name="code">Sympton code</string>
+    <string name="plant">Plant</string>
+    <string name="reported">Reported by</string>
+    <string name="RAm">RAM-Consequence category</string>
+    <string name="ram_class">RAM-Consequence class</string>
+
+    <string name="required">Required start</string>
+    <string name="prority">Priority</string>
+    <string name="probability">robability Class</string>
+
+    <string name="save">save</string>
+</resources>
